@@ -1,2 +1,3 @@
 // Comando para compilar el archivo .ts ----> tsc app.ts
-console.log("Hello World");
+// Comando para agregar el modo observador ----> tsc app.ts --watch o --w
+console.log("Hello World!!");
