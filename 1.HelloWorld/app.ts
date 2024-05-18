@@ -27,3 +27,23 @@ console.log("Hello World!!!");
  *  2.Tipos Genericos
  *  3.Tipos Nuevos
  */
+
+// Tipo de dato  -  Boolean
+
+let esSuperman:boolean = true;
+let esBatman:boolean;
+let esAcuaman: true; //No es recomendable
+
+console.log(salvados(esSuperman));
+
+esSuperman = convertirClark();
+
+console.log(salvados(esSuperman));
+
+function salvados(heroe:boolean){
+    return heroe ? "Estamos salvados!!" : "Ooops! ohh"
+}
+
+function convertirClark(){
+    return false;
+}

@@ -22,4 +22,17 @@ console.log("Hello World!!!");
  *  1.Interfaces
  *  2.Tipos Genericos
  *  3.Tipos Nuevos
- */ 
+ */
+// Tipo de dato  -  Boolean
+let esSuperman = true;
+let esBatman;
+let esAcuaman; //No es recomendable
+console.log(salvados(esSuperman));
+esSuperman = convertirClark();
+console.log(salvados(esSuperman));
+function salvados(heroe) {
+    return heroe ? "Estamos salvados!!" : "Ooops! ohh";
+}
+function convertirClark() {
+    return false;
+}
