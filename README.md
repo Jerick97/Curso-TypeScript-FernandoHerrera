@@ -56,6 +56,27 @@ O también puedes usar la opción corta:
 tsc -w
 ```
 
+## Tipos de Datos
+
+#### Tipos Primitivos
+
+- **STRING**: "", '', ``
+- **NUMEROS**: 3.1415, 1500.0, 1
+- **BOOLEANOS**: true, false
+- **NULL / UNDEFINED**: null, undefined
+- **ARRAY**: [1, 2, 3]
+
+#### Tipos Compuestos
+
+- **Objetos Literales**: { nombre: "Jerick97" }
+- **Clases**: class Persona { nombre; edad; }
+- **Funciones**: function saludar() { return 'Hola'; }
+
+#### Tipos Nuevos
+
+- **Interfaces**
+- **Tipos Genéricos**
+
 ## Notas adicionales
 
 Asegúrate de tener **TypeScript** instalado globalmente para ejecutar estos comandos. Puedes instalarlo usando npm:
