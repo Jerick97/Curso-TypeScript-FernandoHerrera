@@ -90,3 +90,15 @@ let superman = {
         return this.nombre;
     },
 };
+function enviarMision(xmen) {
+    console.log("Enviando a: " + xmen.nombre);
+}
+function enviarCuartel(xmen) {
+    console.log("Enviando al cuartel: " + xmen.nombre);
+}
+let wolverine = {
+    nombre: "Wolverine",
+    poder: "Regeneración",
+};
+enviarMision(wolverine);
+enviarCuartel(wolverine);
