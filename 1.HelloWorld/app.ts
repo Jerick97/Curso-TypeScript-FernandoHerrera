@@ -47,3 +47,22 @@ function salvados(heroe:boolean){
 function convertirClark(){
     return false;
 }
+
+
+// Tipo de dato  -  Numbers
+
+let avengers:number = 5;
+let villanos:number; //undefined
+let otros = 2;
+
+villanos = 3;
+
+if(avengers > villanos){
+    console.log("Estamos salvados!")
+}else{
+    console.log("Estamos muertos!")
+}
+
+otros = 123;
+otros = 123.12;
+//otros = "123"; nos devuelve un error
