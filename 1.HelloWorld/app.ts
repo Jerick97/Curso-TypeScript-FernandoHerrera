@@ -66,3 +66,17 @@ if(avengers > villanos){
 otros = 123;
 otros = 123.12;
 //otros = "123"; nos devuelve un error
+
+// Tipo de dato  -  String
+
+let batman:string = "Batman";
+let linternaVerde:string = 'Linterna Verde';
+let volcanNegro:string = `Volcan Negro`;
+
+console.log(batman);
+console.log(linternaVerde);
+console.log(volcanNegro);
+
+let concatenar = `Los héroes son: ${batman}, ${linternaVerde} y ${volcanNegro}`;
+
+console.log(concatenar);

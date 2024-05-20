@@ -50,3 +50,12 @@ else {
 otros = 123;
 otros = 123.12;
 //otros = "123"; nos devuelve un error
+// Tipo de dato  -  String
+let batman = "Batman";
+let linternaVerde = 'Linterna Verde';
+let volcanNegro = `Volcan Negro`;
+console.log(batman);
+console.log(linternaVerde);
+console.log(volcanNegro);
+let concatenar = `Los héroes son: ${batman}, ${linternaVerde} y ${volcanNegro}`;
+console.log(concatenar);
