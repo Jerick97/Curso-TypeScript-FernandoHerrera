@@ -59,3 +59,13 @@ console.log(linternaVerde);
 console.log(volcanNegro);
 let concatenar = `Los héroes son: ${batman}, ${linternaVerde} y ${volcanNegro}`;
 console.log(concatenar);
+// Tipo de dato  -  Any
+let vengador;
+let existe; //por defecto sino tienen un tipo es any
+let derrotas;
+vengador = "Dr. Strange";
+console.log(vengador.charAt(0));
+vengador = 150.5555;
+console.log(vengador.toFixed(2));
+vengador = true;
+console.log(vengador);
