@@ -73,3 +73,12 @@ console.log(vengador);
 let arreglo = [1, 2, 4, 5, 6, 7];
 let villanoss = ["Omega Rojo", "Dormammu", "Duende Verde"];
 console.log(villanoss[0].charAt(0));
+// Objetos básicos -  Tipos específicos
+let flash = {
+    nombre: "Barry Allen",
+    edad: 24,
+    poderes: ["Puede correr muy rápido", "Viajar por el tiempo"],
+    getNombre() {
+        return this.nombre;
+    }
+};
