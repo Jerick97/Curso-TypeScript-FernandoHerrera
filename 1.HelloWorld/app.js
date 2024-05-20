@@ -52,7 +52,7 @@ otros = 123.12;
 //otros = "123"; nos devuelve un error
 // Tipo de dato  -  String
 let batman = "Batman";
-let linternaVerde = 'Linterna Verde';
+let linternaVerde = "Linterna Verde";
 let volcanNegro = `Volcan Negro`;
 console.log(batman);
 console.log(linternaVerde);
@@ -80,5 +80,13 @@ let flash = {
     poderes: ["Puede correr muy rápido", "Viajar por el tiempo"],
     getNombre() {
         return this.nombre;
-    }
+    },
+};
+let superman = {
+    nombre: "Clark Kent",
+    edad: 500,
+    poderes: ["Puede Volar", "Super Velocidad", 223],
+    getNombre() {
+        return this.nombre;
+    },
 };
