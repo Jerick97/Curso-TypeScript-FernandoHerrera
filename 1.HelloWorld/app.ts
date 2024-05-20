@@ -95,3 +95,10 @@ console.log( vengador.toFixed(2));
 
 vengador = true;
 console.log(vengador);
+
+// Tipo de dato  -  Array
+
+let arreglo:number[] = [1, 2, 4, 5, 6, 7];
+let villanoss:string[] = ["Omega Rojo", "Dormammu", "Duende Verde"];
+
+console.log(villanoss[0].charAt(0));
