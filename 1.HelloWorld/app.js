@@ -85,7 +85,7 @@ let flash = {
 let superman = {
     nombre: "Clark Kent",
     edad: 500,
-    poderes: ["Puede Volar", "Super Velocidad", 223],
+    poderes: ["Puede Volar", "Super Velocidad"],
     getNombre() {
         return this.nombre;
     },
@@ -102,3 +102,19 @@ let wolverine = {
 };
 enviarMision(wolverine);
 enviarCuartel(wolverine);
+// Clases y constructores
+class Avenger {
+    //constructor
+    constructor(nombre, equipo, nombreReal) {
+        this.nombre = "Sin Nombre!";
+        this.equipo = "";
+        this.nombreReal = "";
+        this.puedePelear = false;
+        this.peleasGanadas = 0;
+        this.nombre = nombre;
+        this.equipo = equipo;
+        this.nombreReal = nombreReal;
+    }
+}
+let antman = new Avenger("Antman", "Equipo Cap", "Scott Lang");
+console.log(antman);

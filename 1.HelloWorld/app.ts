@@ -106,7 +106,7 @@ console.log(villanoss[0].charAt(0));
 type Heroe = {
   nombre: string;
   edad: number;
-  poderes: any[];
+  poderes: string[];
   getNombre: () => string;
 };
 
@@ -124,7 +124,7 @@ let flash: Heroe = {
 let superman: Heroe = {
   nombre: "Clark Kent",
   edad: 500,
-  poderes: ["Puede Volar", "Super Velocidad", 223],
+  poderes: ["Puede Volar", "Super Velocidad"],
   getNombre() {
     return this.nombre;
   },
@@ -152,3 +152,24 @@ let wolverine: Xmen = {
 
 enviarMision(wolverine);
 enviarCuartel(wolverine);
+
+// Clases y constructores
+
+class Avenger {
+  nombre: string = "Sin Nombre!";
+  equipo: string = "";
+  nombreReal: string = "";
+  puedePelear: boolean = false;
+  peleasGanadas: number = 0;
+
+  //constructor
+  constructor(nombre: string, equipo: string, nombreReal: string) {
+    this.nombre = nombre;
+    this.equipo = equipo;
+    this.nombreReal = nombreReal;
+  }
+}
+
+let antman: Avenger = new Avenger("Antman", "Equipo Cap", "Scott Lang");
+
+console.log(antman);
